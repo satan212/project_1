@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+    #navi{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li{
+        float: left;
+    } 
+    li a {color:white;
+        display:block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    }
+    li a:hover{
+        background-color:green;
+        border-width: 2px;
+    }
+    
+    #search{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 5cm;
+        height:30px;
+        width: 8cm;
+    }
+    button{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        height: 36px;
+        width:2cm
+    }
+    #sign{
+        margin-left: 6.5cm;
+    }
+    </style>
+
 </head>
 <body>
-    <h1>helloworld!</h1>git 
+    <ul id="navi">
+        <li><a href="">Home</a></li>
+        <li><a id="" href="">Movies</a></li>
+        <li><a href="">Anime</a></li>
+        <li><a href="">Critics</a></li>
+        <li><a href="">Theater_details</a></li>
+        <li><input type="text" name="" id="search"></li>
+        <li><button>search</button></li>
+        <li><a href=""id="sign">sign_In</a></li>
+        
+    </ul>
 </body>
 
 </html>
